@@ -1,5 +1,4 @@
 FlexiApp
-
 Project made for Vanhackathon. Receives a JSON/XML file and convert into a CSV, storing in GoogleDrive folder.
 
 
@@ -9,11 +8,11 @@ What we need?
 
 -GoogleDrive.Apis.V3 (NuGet install);
 
--Google Drive ClientId;
+-Google Drive ClientId; //https://console.developers.google.com/
 
--Google Drive ProjectId;
+-Google Drive ProjectId; //https://console.developers.google.com/
 
--Google Drive ClientSecret;
+-Google Drive ClientSecret; //https://console.developers.google.com/
 
 -GoogleDriver folder to download and Upload.
 
