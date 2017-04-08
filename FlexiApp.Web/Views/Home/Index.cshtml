@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<form class="form-horizontal">
+    <div class="form-group">
+        <h2>What do you want to do?</h2>
+        <hr />
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Send a XML File</label>
+        <div class="col-md-6">
+
+            <input type="button" value="Credit Report - XML" class="btn btn-primary" onclick="location.href='@Url.Action("Index","CreditReport")'" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Send a JSON File</label>
+        <div class="col-md-6">
+            <input type="button" value="Bank Statement - JSON" class="btn btn-primary" onclick="location.href='@Url.Action("Index","BankStatement")'" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Create a XML File</label>
+        <div class="col-md-6">
+            <input type="button" value="Credit Report - XML" class="btn btn-primary" onclick="location.href='@Url.Action("Create","CreditReport")'" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Create a JSON File</label>
+        <div class="col-md-6">
+            <input type="button" value="Bank Statement - JSON" class="btn btn-primary" onclick="location.href='@Url.Action("Create","BankStatement")'" />
+        </div>
+    </div>
+</form>
+
+

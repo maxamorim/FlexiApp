@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiApp.Web", "FlexiApp.Web\FlexiApp.Web.csproj", "{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{703D9F7F-E06D-4990-BBF8-DAE0AF09A8FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E8D5BDA6-AE4E-42CD-B201-0E43B83201AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiApp.Domain", "FlexiApp.Domain\FlexiApp.Domain.csproj", "{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FE467F07-BBE4-4DBF-A0D3-6E90AD100F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiApp.Infrastructure", "FlexiApp.Infrastructure\FlexiApp.Infrastructure.csproj", "{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiApp.GoogleDrive", "FlexiApp.GoogleDrive\FlexiApp.GoogleDrive.csproj", "{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54ADEB59-9528-49E3-ABFC-7B3B5AC93C3F} = {703D9F7F-E06D-4990-BBF8-DAE0AF09A8FB}
+		{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9} = {E8D5BDA6-AE4E-42CD-B201-0E43B83201AE}
+		{AFF5BD3D-4FE1-4793-8967-4B9B09EDAA08} = {FE467F07-BBE4-4DBF-A0D3-6E90AD100F15}
+		{086DC6EF-2B5C-45D3-9F53-FDB3B7307FD5} = {FE467F07-BBE4-4DBF-A0D3-6E90AD100F15}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mamorim.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FlexiApp.Domain\\FlexiApp.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = FlexiApp.sln
+		SccProjectName1 = FlexiApp.Domain
+		SccLocalPath1 = FlexiApp.Domain
+		SccProjectUniqueName2 = FlexiApp.Web\\FlexiApp.Web.csproj
+		SccProjectTopLevelParentUniqueName2 = FlexiApp.sln
+		SccProjectName2 = FlexiApp.Web
+		SccLocalPath2 = FlexiApp.Web
+		SccProjectUniqueName3 = FlexiApp.Infrastructure\\FlexiApp.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName3 = FlexiApp.sln
+		SccProjectName3 = FlexiApp.Infrastructure
+		SccLocalPath3 = FlexiApp.Infrastructure
+		SccProjectUniqueName4 = FlexiApp.GoogleDrive\\FlexiApp.GoogleDrive.csproj
+		SccProjectTopLevelParentUniqueName4 = FlexiApp.sln
+		SccProjectName4 = FlexiApp.GoogleDrive
+		SccLocalPath4 = FlexiApp.GoogleDrive
+	EndGlobalSection
+EndGlobal

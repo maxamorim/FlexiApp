@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CA3F6AC-D700-4BBF-9B0F-AC4AE8A890B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlexiApp.Domain</RootNamespace>
+    <AssemblyName>FlexiApp.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\BankStatement\Account.cs" />
+    <Compile Include="Models\BankStatement\Accounts.cs" />
+    <Compile Include="Models\BankStatement\Application.cs" />
+    <Compile Include="Models\BankStatement\Applications.cs" />
+    <Compile Include="Models\BankStatement\Benefit.cs" />
+    <Compile Include="Models\BankStatement\Income.cs" />
+    <Compile Include="Models\BankStatement\Loans.cs" />
+    <Compile Include="Models\BankStatement\OtherDishonour.cs" />
+    <Compile Include="Models\BankStatement\OtherIncome.cs" />
+    <Compile Include="Models\BankStatement\OtherLoan.cs" />
+    <Compile Include="Models\BankStatement\OtherOutgoing.cs" />
+    <Compile Include="Models\BankStatement\Outgoings.cs" />
+    <Compile Include="Models\BankStatement\Overview.cs" />
+    <Compile Include="Models\BankStatement\Overviews.cs" />
+    <Compile Include="Models\BankStatement\Rent.cs" />
+    <Compile Include="Models\BankStatement\RootObject.cs" />
+    <Compile Include="Models\BankStatement\Salary.cs" />
+    <Compile Include="Models\BankStatement\SmallAmountLoansDishonour.cs" />
+    <Compile Include="Models\BankStatement\SmallAmountLoansLoan.cs" />
+    <Compile Include="Models\BankStatement\SmallAmountLoansRepayment.cs" />
+    <Compile Include="Models\BankStatement\Transaction.cs" />
+    <Compile Include="Models\BankStatement\Transactions.cs" />
+    <Compile Include="Models\CreditReport\Address.cs" />
+    <Compile Include="Models\CreditReport\Addresses.cs" />
+    <Compile Include="Models\CreditReport\Body.cs" />
+    <Compile Include="Models\CreditReport\Envelope.cs" />
+    <Compile Include="Models\CreditReport\Inquiries.cs" />
+    <Compile Include="Models\CreditReport\Inquiry.cs" />
+    <Compile Include="Models\CreditReport\Message.cs" />
+    <Compile Include="Models\CreditReport\Messages.cs" />
+    <Compile Include="Models\CreditReport\Name.cs" />
+    <Compile Include="Models\CreditReport\Names.cs" />
+    <Compile Include="Models\CreditReport\PersonalInformation.cs" />
+    <Compile Include="Models\CreditReport\ProcessRequestXMLResponse.cs" />
+    <Compile Include="Models\CreditReport\ProcessRequestXMLResult.cs" />
+    <Compile Include="Models\CreditReport\ScoreProduct.cs" />
+    <Compile Include="Models\CreditReport\ScoreProducts.cs" />
+    <Compile Include="Models\CreditReport\Trade.cs" />
+    <Compile Include="Models\CreditReport\Trades.cs" />
+    <Compile Include="Models\CreditReport\TU_FFR_Report.cs" />
+    <Compile Include="Models\GoogleDrive\Credentials.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

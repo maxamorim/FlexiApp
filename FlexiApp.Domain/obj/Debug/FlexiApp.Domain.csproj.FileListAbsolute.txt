@@ -1,0 +1,4 @@
+C:\tfs\FlexiApp\FlexiApp.Web\FlexiApp.Domain\bin\Debug\FlexiApp.Domain.dll
+C:\tfs\FlexiApp\FlexiApp.Web\FlexiApp.Domain\bin\Debug\FlexiApp.Domain.pdb
+C:\tfs\FlexiApp\FlexiApp.Web\FlexiApp.Domain\obj\Debug\FlexiApp.Domain.dll
+C:\tfs\FlexiApp\FlexiApp.Web\FlexiApp.Domain\obj\Debug\FlexiApp.Domain.pdb
