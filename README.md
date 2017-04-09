@@ -34,3 +34,5 @@ Select the option that you want to do:
 
 
 All options create and send to the specific GoogleDriver folder.
+
+Documentation: https://drive.google.com/open?id=0BwR27ZcSMv0tWEFpYldtYjRLWm8
